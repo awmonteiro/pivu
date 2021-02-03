@@ -1,0 +1,20 @@
+   .rodape {
+       font-family: 'JetBrains Mono', sans-serif;
+       margin-top: 2.0rem;
+       background: #cc9900;
+   }
+   
+   .tecnologias {
+       display: grid;
+       grid-template-columns: 33% 33% 33%;
+       grid-template-rows: auto;
+   }
+   
+   .coluna1 {
+       display: flex;
+       align-items: center;
+   }
+   
+   .tituloRodape {
+       text-decoration: underline;
+   }

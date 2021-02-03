@@ -1,0 +1,20 @@
+.form-label {
+    width: 25%;
+    text-align: right;
+}
+
+.form-control {
+    display: inline-block;
+    width: 65%;
+}
+
+.subTituloCadastro {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.botaoSalvar {
+    margin-top: 1rem;
+    width: 20%;
+}

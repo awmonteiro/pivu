@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Pivu" id="1493BB53-9EC9-9CEF-B48B-E7F85912AEE2" version="3.5">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-01-28 15:01:14 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1493BB53-9EC9-9CEF-B48B-E7F85912AEE2</designId>
+</OSDM_Design>

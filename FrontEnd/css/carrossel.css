@@ -1,0 +1,15 @@
+.responsive {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.copo {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.estiloCerveja {
+    text-align: center;
+}

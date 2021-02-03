@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pivu - Cervejarias</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/fontes.css">
+    <link rel="stylesheet" href="css/modalProduto.css">
+    <link rel="stylesheet" href="css/sacola.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+
+<body>
+    <header>
+        <div class="linha"></div>
+        <div class="logoSacola">
+            <img src="Imagens/logo.png" class="imgLogo">
+        </div>
+        <div class="linha"></div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="form-cadastro">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="subTituloCadastro">
+                            <h5>Dados cadastrais</h5>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="senha" class="form-label">Senha</label>
+                            <input id="senha" name="senha" type="password" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input id="nome" name="nome" type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cpf" class="form-label">CPF</label>
+                            <input id="cpf" type="number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input id="telefone" type="number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nascimento" class="form-label">Nascimento</label>
+                            <input id="nascimento" type="date" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="subTituloCadastro">
+                            <h5>Endereço de entrega</h5>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cep" class="form-label">Cep</label>
+                            <input id="cep" type="number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="rua" class="form-label">Rua</label>
+                            <input id="rua" type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="numero" class="form-label">Numero</label>
+                            <input id="numero" type="number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="bairro" class="form-label">Bairro</label>
+                            <input id="bairro" type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cidade" class="form-label">Cidade</label>
+                            <input id="cidade" type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="estado" class="form-label">Estado</label>
+                            <input id="estado" type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <button type="submit" class="btn btn-primary botaoSalvar">Salvar</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class=" rodape ">
+        <p class="tituloPrincipal ">Site desenvolvido para estudos, sem fins comerciais.</p>
+        <div class="tecnologias ">
+            <div class="coluna1 ">
+                <p>Tecnologias utilizadas:</p>
+            </div>
+            <div>
+                <p class="tituloRodape ">Front-End</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <p class="tituloRodape ">Back-End</p>
+                <ul>
+                    <li>Oracle</li>
+                    <li>C# (.Net Core)</li>
+                    <li>Dapper</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js " integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js " integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj " crossorigin="anonymous "></script>
+    <script src="js/contador.js "></script>
+</body>
+
+</html>

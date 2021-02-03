@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pivu - Cervejarias</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/fontes.css">
+    <link rel="stylesheet" href="css/modalProduto.css">
+    <link rel="stylesheet" href="css/sacola.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+
+<body>
+    <header>
+        <div class="linha"></div>
+        <div class="logoSacola">
+            <img src="Imagens/logo.png" class="imgLogo">
+        </div>
+        <div class="linha"></div>
+    </header>
+
+    <main>
+
+        <div class="sacola">
+
+            <div class="dadosCliente">
+                <h2>Finalize seu pedido</h2>
+
+                <!-- Dados sobre entrega ou retirada -->
+                <div class="entregaOuRetirada">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="entrega-tab" data-bs-toggle="tab" href="#entrega" role="tab" aria-controls="entrega" aria-selected="true">Entrega</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="retirada-tab" data-bs-toggle="tab" href="#retirada" role="tab" aria-controls="retirada" aria-selected="false">Retirada</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <!-- tab de entrega -->
+                        <div class="tab-pane active" id="entrega" role="tabpanel" aria-labelledby="entrega-tab">
+                            <div class="localDaEntrega">
+                                <div class="endereco">
+                                    <h5 class="ruaSacola">Rua da sua casa, 10</h5>
+                                    <h7 class="cidadeSacola">São Paulo/SP</h7>
+                                </div>
+                                <div class="alteraEndereco">
+                                    <button type="button" class="botaoAlteraEndereco btn-sacola">Alterar</button>
+                                </div>
+                            </div>
+                            <div class="dadosEntrega">
+                                <div class="itemSacola">Tempo p/ entrega</div>
+                                <div class="subTotalItemSacola ">30 min</div>
+                                <div class="itemSacola">Taxa de entrega</div>
+                                <div class="subTotalItemSacola">R$3,00</div>
+                            </div>
+                        </div>
+
+                        <!-- tab de retirada -->
+                        <div class="tab-pane" id="retirada" role="tabpanel" aria-labelledby="retirada-tab">
+                            <div class="localDaRetirada">
+                                <div class="endereco">
+                                    <h5 class="ruaSacola">Rua da Loja, 15</h5>
+                                    <h7 class="cidadeSacola">São Paulo/SP</h7>
+                                </div>
+                            </div>
+                            <div class="dadosEntrega">
+                                <div class="itemSacola">Tempo p/ retirada</div>
+                                <div class="subTotalItemSacola">10 min</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- dados sobre pagamento -->
+                <div class="pagaAgoraOuNaEntrega">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="pagora-tab" data-bs-toggle="tab" href="#pagora" role="tab" aria-controls="pentrega" aria-selected="true">Pagar agora</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="pentrega-tab" data-bs-toggle="tab" href="#pentrega" role="tab" aria-controls="pentrega" aria-selected="false">Pagar na entrega</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <!-- tab de pagar agora -->
+                        <div class="tab-pane active" id="pagora" role="tabpanel" aria-labelledby="pagora-tab">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control m15 mb-3" placeholder="Numero do cartão" aria-label="Numero do Cartão">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control mb-3" placeholder="Validade" aria-label="Validade">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control mb-3" placeholder="CVV" aria-label="CVV">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Nome do titular" aria-label="Nome do titular">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tab de pagar na entrega -->
+                        <div class="tab-pane" id="pentrega" role="tabpanel" aria-labelledby="pentrega-tab">
+                            <div class="btn-group m15" role="group" aria-label="Basic radio toggle button group">
+                                <div class="container-fluid">
+                                    <div class="row linhadoscartoes">
+
+                                        <div class="cardCartao">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                                            <label class="btn btn-outline-primary" for="btnradio1">                                    
+                                               <img src="Imagens/cartoes/mastercard.webp" class="logoCartao">
+                                            <div class="tipoCartao">Mastercard - crédito</div>
+                                        </label>
+                                        </div>
+
+                                        <div class="cardCartao">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                            <label class="btn btn-outline-primary" for="btnradio2">
+                                            <img src="Imagens/cartoes/mastercard.webp" class="logoCartao">
+                                            <div class="tipoCartao">Mastercard - débito</div>
+                                        </label>
+                                        </div>
+
+                                        <div class="cardCartao">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                            <label class="btn btn-outline-primary" for="btnradio3">
+                                            <img src="Imagens/cartoes/visa.png" class="logoCartao">
+                                            <div class="tipoCartao">Visa - crédito</div>
+                                        </label>
+                                        </div>
+
+                                        <div class="cardCartao">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                                            <label class="btn btn-outline-primary" for="btnradio4">
+                                            <img src="Imagens/cartoes/visa.png" class="logoCartao">
+                                            <div class="tipoCartao">Visa - débito</div>
+                                        </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- dados do pedido -->
+            <div class="dadosPedido">
+                <div class="shadow p-3 mb-4 bg-white rounded">
+                    <div class="localCompra">
+                        <h6 class="text-muted">Seu pedido em</h6>
+                        <h2>Taubatexas</h2>
+                        <hr>
+                    </div>
+                    <div class="itensCompra">
+                        <div class="itemSacola">1 Rua Zero</div>
+                        <div class="negrito subTotalItemSacola">R$12,00</div>
+                        <div class="botoesAlteraItem">
+                            <button type="button" class="btn-sacola" data-bs-toggle="modal" data-bs-target="#exampleModal">Editar</button>
+                            <button type="button" class="btn-sacola">Remover</button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="subTotal">
+                        <div class="itemSacola espacoSubtotais">Subtotal</div>
+                        <div class="negrito subTotalItemSacola espacoSubtotais">R$12,00</div>
+                        <div class="itemSacola">Taxa de entrega</div>
+                        <div class="negrito subTotalItemSacola">R$3,00</div>
+                        <hr>
+                    </div>
+                    <div class="Total">
+                        <div class="negrito itemSacola">Total</div>
+                        <div class="negrito subTotalItemSacola">R$15,00</div>
+                    </div>
+                </div>
+                <div class="finalizaPedido">
+                    <button type="button" class="btn btn-primary btnFinalizaPedido">Finalizar pedido</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Tubatexas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="Imagens/produtos/taubatexas_rua_zero_G.jpeg" class="produtoG">
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-6">
+                                    <h3>Rua Zero</h3>
+                                    <p class="manterLinha">Cream Ale</p>
+                                    <p class="text-muted">Cerveja com amargor leve.</p>
+                                    <p class="tiraMargem">IBU: N/A</p>
+                                    <p class="tiraMargem">ABV:5.0%</p>
+                                    <p class="negrito moedaProdutoModal">R$</p>
+                                    <p class="negrito precoProdutoModal">12,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="border border-3">
+                                <button class="btn down_count" id="contadorDown" title="Down">-</button>
+                                <input class="counter" type="text" value='1' />
+                                <button class="btn up_count" id="contadorUp" title="Up">+</button>
+                            </div>
+                            <button type="button" class="btn btn-primary">
+                                <span class="adicionar">Adicionar</span>
+                                <span>R$</span>
+                                <span class="subTotalProdutoModal">12,00</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class=" rodape ">
+        <p class="tituloPrincipal ">Site desenvolvido para estudos, sem fins comerciais.</p>
+        <div class="tecnologias ">
+            <div class="coluna1 ">
+                <p>Tecnologias utilizadas:</p>
+            </div>
+            <div>
+                <p class="tituloRodape ">Front-End</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <p class="tituloRodape ">Back-End</p>
+                <ul>
+                    <li>Oracle</li>
+                    <li>C# (.Net Core)</li>
+                    <li>Dapper</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js " integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js " integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj " crossorigin="anonymous "></script>
+    <script src="js/contador.js "></script>
+</body>
+
+</html>
