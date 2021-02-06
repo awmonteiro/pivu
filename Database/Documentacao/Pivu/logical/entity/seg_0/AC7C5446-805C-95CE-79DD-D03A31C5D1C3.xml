@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC7C5446-805C-95CE-79DD-D03A31C5D1C3" name="CERVEJARIA_ENDERECO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:15 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="5AD99FFD-70B9-7430-1D2E-313C5921345D">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:32 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="CC8968CF-F650-25D0-962C-C67B5D70C532">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:42 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="2DC0E1AF-E397-4C16-5866-7249BDC50C9B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:44 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="B9CB9BEF-E9F4-9813-AEA1-38DD18FB0535">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:46 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="17B218C8-CE82-655C-66B6-91B67CEE4F00">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:49 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="8F5111C1-3AE4-59DB-7369-235A3544A4CB">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:52 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="C8955727-5148-CE40-EA64-2571AFD54136">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:55 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cervejaria" id="C3434159-2B32-33F5-1E28-2C1004384647">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:42:57 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

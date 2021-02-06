@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76868950-5A81-F7F0-A3A2-D481F6831820" name="TIPO_PAGAMENTO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:23:47 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_pagamento" id="70CF2CF9-301A-3531-3046-A2CC79F4C6BD">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:24:03 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_pagamento" id="D253C7C6-52EF-08C9-86FC-20F582863594">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:24:11 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

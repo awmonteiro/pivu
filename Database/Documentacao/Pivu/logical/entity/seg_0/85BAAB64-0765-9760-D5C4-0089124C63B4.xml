@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85BAAB64-0765-9760-D5C4-0089124C63B4" name="PRODUTO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:11:41 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="7BEF8ED7-48D3-81D1-61EA-4CF6997A5B55">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:49:06 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="BB8E39AD-B595-799C-93CD-2067A365B06E">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:22:35 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estilo" id="6FE42F39-9365-8735-E419-A933F468E20D">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:23:16 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="036FA610-C8BB-C669-995B-40A4361693BC">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:24:17 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ibu" id="06231485-CF16-383A-5DA9-66A8CE236C5B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:26:34 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="abv" id="441E022F-CA16-C3AF-553E-F45A9162CCE9">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:26:50 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cervejaria" id="574A93D4-4172-A356-D2DB-8FCFC1A289A0">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:27:03 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="6F9CE9CC-4B9E-6A98-B155-52204D4FFB54">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:28:00 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="8BC249C7-CF2E-B272-78DC-33DF3A23F565">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-04 23:29:12 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dias_preparo" id="20190C4B-7151-6930-95D5-81D8FB8A3DD5">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 14:05:21 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
