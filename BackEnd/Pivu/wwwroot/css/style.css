@@ -1,0 +1,83 @@
+.tituloPrincipal {
+    font-family: 'JetBrains Mono', sans-serif;
+    margin-top: 5.5rem;
+    background: #cc9900;    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    color: white;
+}
+
+.tituloDeSecao {
+    padding-top: 1rem;
+    padding-left: 1.0rem;
+}
+
+.cardCervejarias {
+    width: 32%;
+}
+
+.cardDivImgCervejaria {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 30%;
+}
+
+.card-body {
+    width: 70%;
+}
+
+.cardImgCervejaria {
+    height: 100px;
+    padding: 0.5rem;
+}
+
+.divBanner {
+    margin-top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dadosCervejaria {
+    padding-top: 2rem;
+    padding-left: 1.0rem;
+}
+
+.estrela::after {
+    content: "\2605";
+    color: #cc9900;
+}
+
+.estrela {
+    display: inline;
+}
+
+.nota {
+    display: inline;
+    color: #cc9900;
+}
+
+.manterLinha {
+    display: inline;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.text-muted {
+    font-size: small;
+}
+
+.invisivel{    
+    background: transparent;
+    border: none !important;
+    font-size: 0;    
+}

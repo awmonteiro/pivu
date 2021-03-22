@@ -1,0 +1,54 @@
+﻿@model List<Produto>
+
+<div class="modal fade" id="details-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Taubatexas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="~/images/produtos/p_@(Model.First().ID_PRODUTO)_g.jpeg" class="produtoG">
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col-6">
+                            <input type="hidden" asp-for="@Model.First().ID_PRODUTO" />
+                            <h3>@Model.First().NOME</h3>
+                            <p class="manterLinha">@Model.First().ESTILO</p>
+                            <p class="text-muted">@Model.First().DESCRICAO</p>
+                            <p class="tiraMargem">IBU: @Model.First().IBU</p>
+                            <p class="tiraMargem">ABV: @Model.First().ABV</p>
+                            <select class="form-select mt-3" aria-label="Default select example">
+                                @foreach (var PrecoTamanho in Model)
+                                {
+                                    <option value="1">@PrecoTamanho.Tamanho.VOLUME</option>                                    
+                                }
+                            </select>
+                            <p class="negrito moedaProdutoModal">R$</p>
+                            <p class="negrito precoProdutoModal">12,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="border border-3">
+                        <button class="btn down_count" id="contadorDown" title="Down">-</button>
+                        <input class="counter" type="text" value='1' />
+                        <button class="btn up_count" id="contadorUp" title="Up">+</button>
+                    </div>
+                    <button type="button" class="btn btn-primary">
+                        <span class="adicionar">Adicionar</span>
+                        <span>R$</span>
+                        <span class="subTotalProdutoModal">12,00</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    // Add something here
+}

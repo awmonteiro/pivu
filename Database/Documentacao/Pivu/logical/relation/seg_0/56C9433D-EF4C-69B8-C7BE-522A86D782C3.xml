@@ -4,14 +4,16 @@
 <createdTime>2021-02-04 23:58:31 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
+<sourcePk>9B713095-A84A-7682-EA49-8F4CB184E7A1</sourcePk>
+<targetPk>C0DB8F59-7EDF-79F6-4BF2-27CC95A63DC1</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>85BAAB64-0765-9760-D5C4-0089124C63B4</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>89DE68C6-4E54-5AC4-2B57-5E0DF6468B23</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

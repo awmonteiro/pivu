@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B2C102E-98D8-B46E-B383-F2971A865F68" containerWithKeyObject="806CD7C7-6414-AEB2-C4F9-C73584AF8164" localFKIndex="E12B527B-831E-D49C-FFDC-38B9CFD916BA" name="PEDIDO_USUARIO_ENDERECO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 23:21:03 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<referredTableLongName>USUARIO_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B869776F-40DA-D4B6-9B16-596EE28B6AEB</referredTableID>
+<keyObject>9B35A681-4046-5267-65B9-00F55170881F</keyObject>
+<referredKeyID>9B35A681-4046-5267-65B9-00F55170881F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_endereco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="createdByFKDiscoverer" value="true"/>
+</propertyMap>
+</FKIndexAssociation>

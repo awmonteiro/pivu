@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76868950-5A81-F7F0-A3A2-D481F6831820" name="TIPO_PAGAMENTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76868950-5A81-F7F0-A3A2-D481F6831820" name="TIPO_PAGAMENTO_PEDIDO">
 <createdBy>CFBAWM</createdBy>
 <createdTime>2021-02-06 14:23:47 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,57 @@
 <createdTime>2021-02-06 14:24:03 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipo_pagamento" id="D253C7C6-52EF-08C9-86FC-20F582863594">
 <createdBy>CFBAWM</createdBy>
 <createdTime>2021-02-06 14:24:11 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="72BA2AA5-A7C7-6E31-8C68-5576FBD1151C">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:40:51 UTC</createdTime>
+<generatorID>46054656-44C7-2BD2-B6C6-110741CCCA02</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1263E3FC-D463-5AE2-A613-F16E2322698F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="682FE0CF-78FE-C4F8-A64C-A85F45C06184" name="TIPO_PAGAMENTO_PEDIDO PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:40:04 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70CF2CF9-301A-3531-3046-A2CC79F4C6BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

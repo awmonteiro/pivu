@@ -4,7 +4,7 @@
 <createdTime>2021-02-05 00:07:00 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,38 +15,75 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pedido" id="E36B4BD2-E9A3-A7BE-0A40-8FAF32FA18EC">
+<Attribute name="id_pedido_item" id="BFD4F76D-1258-3490-0393-55C4B80F7CFE">
 <createdBy>CFBAWM</createdBy>
-<createdTime>2021-02-05 00:07:11 UTC</createdTime>
+<createdTime>2021-02-06 15:49:32 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_produto" id="7B5006BD-CB0D-7CBC-A3DD-9A15AA945804">
-<createdBy>CFBAWM</createdBy>
-<createdTime>2021-02-05 00:07:15 UTC</createdTime>
-<ownerDesignName>Pivu</ownerDesignName>
-<engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="quantidade" id="4A0C04B7-50A5-EBF4-C897-21C354E899AC">
 <createdBy>CFBAWM</createdBy>
 <createdTime>2021-02-05 00:07:20 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido1" id="58BBBBD5-8067-701C-AA48-BDEB5114C2B0">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:38:56 UTC</createdTime>
+<generatorID>72124F22-6B37-E735-0F80-E0263A053798</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<referedAttribute>1263E3FC-D463-5AE2-A613-F16E2322698F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto1" id="5203D626-3337-356B-0EC6-EB6597898D8D">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:55:38 UTC</createdTime>
+<generatorID>BC444A00-DE84-1063-29AE-C0C8325516DA</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<referedAttribute>7BEF8ED7-48D3-81D1-61EA-4CF6997A5B55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="953658BB-87F7-66AA-BCCE-AD4133E23904" name="PEDIDO_ITENS PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 15:49:42 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFD4F76D-1258-3490-0393-55C4B80F7CFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

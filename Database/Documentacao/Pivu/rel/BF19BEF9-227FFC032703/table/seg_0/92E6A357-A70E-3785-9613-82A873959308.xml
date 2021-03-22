@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92E6A357-A70E-3785-9613-82A873959308" name="TIPO_PAGAMENTO_PEDIDO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>76868950-5A81-F7F0-A3A2-D481F6831820</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_pagamento" id="F6CBECF2-5E30-4C9A-5D23-EAE55386B081">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>70CF2CF9-301A-3531-3046-A2CC79F4C6BD</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_pagamento" id="B3F973EF-097A-86B4-0BFF-5FE07F82994C">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>D253C7C6-52EF-08C9-86FC-20F582863594</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81B485E2-CA21-7F8F-798B-A1461FF2C86E" name="TIPO_PAGAMENTO_PEDIDO_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>682FE0CF-78FE-C4F8-A64C-A85F45C06184</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6CBECF2-5E30-4C9A-5D23-EAE55386B081"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

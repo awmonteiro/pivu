@@ -1,0 +1,60 @@
+.counter {
+    font-size: medium;
+    font-weight: bold;
+    width: 35px;
+    text-align: center;
+    border: none;
+    background: none;
+}
+
+.up_count,
+.down_count {
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+.up_count:focus,
+.down_count:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #cc9900;
+    border-color: #cc9900;
+}
+
+.btn-primary:hover {
+    background-color: #996600;
+    border-color: #996600;
+}
+
+.btn-primary:focus {
+    background-color: #996600;
+    border-color: #996600;
+    box-shadow: none!important;
+}
+
+.produtoG {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tiraMargem {
+    margin: 0;
+}
+
+.moedaProdutoModal {
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.precoProdutoModal {
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.adicionar {
+    padding-right: 4rem;
+}

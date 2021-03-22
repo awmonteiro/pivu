@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF285EFE-F8C6-A0CA-D5A6-34A4E25E1886" name="USUARIO_ENDERECOS">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<ordsAlias>relation_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_ENDERECO_id_endereco" id="F4F20C45-B0D1-4C06-9504-B490F40C5B30">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44B17754-6A7E-4116-1CAC-B5541D71B076" referredColumn="36F21243-83D5-6CDA-D89B-8DBD8F50FA32"/>
+</associations>
+</Column>
+<Column name="USUARIO_id_usuario" id="5D37A196-38C9-413A-24CB-4A30AC679D6B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:41:43 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>450</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECFA1A5E-BA6C-22E6-9676-565C4F795072" referredColumn="5A0B8D1E-9584-A653-4EBF-13D61083C31F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4947ABA6-F4F4-47BD-DDB6-E50518879A68" name="USUARIO_ENDERECOS_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4F20C45-B0D1-4C06-9504-B490F40C5B30"/>
+<colUsage columnID="5D37A196-38C9-413A-24CB-4A30AC679D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B642653A-D61C-6744-2D9D-5A46149CC396" name="USUARIO_ENDERECOS_USUARIO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>0C3E92A5-AAC6-9444-9848-6995EBC60225</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D37A196-38C9-413A-24CB-4A30AC679D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A494404E-3121-F619-8761-D93887F589AD" name="USUARIO_ENDERECOS_USUARIO_ENDERECO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>0C3E92A5-AAC6-9444-9848-6995EBC60225</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4F20C45-B0D1-4C06-9504-B490F40C5B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

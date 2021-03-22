@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9F7C4CF-A32B-36B1-0003-EF21D3B3E3D7" name="CERVEJARIA_ENDERECO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>AC7C5446-805C-95CE-79DD-D03A31C5D1C3</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="7D044C1D-7FC7-CF94-D25C-F93FA09A8D85">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>5AD99FFD-70B9-7430-1D2E-313C5921345D</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="E7ED7821-2AAB-8271-B4CB-8BE490482B6F">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>CC8968CF-F650-25D0-962C-C67B5D70C532</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="6FDE8431-5691-67C2-4055-C42A12302260">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>2DC0E1AF-E397-4C16-5866-7249BDC50C9B</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="C6A82DF3-C0D6-2358-4DE0-84F2087CBDCF">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>B9CB9BEF-E9F4-9813-AEA1-38DD18FB0535</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="088659A6-14AE-7FBC-D633-CBB02A5A6400">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>17B218C8-CE82-655C-66B6-91B67CEE4F00</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="9CC2C649-2720-C4F1-6C52-D95CFDA24520">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>8F5111C1-3AE4-59DB-7369-235A3544A4CB</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="7A1BE298-1B0D-1877-12C5-C460AFE27BE2">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>C8955727-5148-CE40-EA64-2571AFD54136</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERVEJARIA_id_cervejaria" id="8919CD6C-2D86-A260-2321-97A84F2434CA">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>85945EBD-FD85-08F0-2B1F-A36FF8C6F078</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25BAEC8F-2D8E-CBD8-98E9-2602A076388B" referredColumn="EBDF923E-9145-30F4-DCFA-C8F9FADD63FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2931E5C8-2C02-0A9B-D214-BBEDFF329647" name="CERVEJARIA_ENDERECO_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>B0822C6E-160B-9189-3393-57FCDE347166</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D044C1D-7FC7-CF94-D25C-F93FA09A8D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EDDAE56-441B-6815-AABD-012ABF632EDD" name="CERVEJARIA_ENDERECO_CERVEJARIA_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>42166D62-1750-2679-8701-D8DB82F33CBF</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8919CD6C-2D86-A260-2321-97A84F2434CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

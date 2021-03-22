@@ -1,0 +1,71 @@
+.cabecalho {
+    font-family: 'JetBrains Mono', sans-serif;
+    display: flex;
+}
+
+.imgLogo {
+    padding-left: 1rem;
+    width: 8rem;
+    height: auto;
+}
+
+.imgLupa {
+    padding-left: 1em;
+    padding-top: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+
+.imgPerfil {
+    padding-left: 1rem;
+    /* padding-top: 1rem; */
+    width: 3.4em;
+    height: auto;
+}
+
+.imgSacola {
+    padding-left: 1rem;
+    /* padding-top: 1rem; */
+    width: 3em;
+    height: auto;
+}
+
+.itemMenu {
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-top: 1.0rem;
+}
+
+.menuCabecalho {
+    color: black;
+}
+
+.menuCabecalho:hover {
+    color: black;
+}
+
+.formulario {
+    display: flex;
+}
+
+.formPesquisa {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    background: #f7f7f7;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.inputPesquisa {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    border: none;
+    background: #f7f7f7;
+    align-items: center;
+}
+
+.textoMenu {
+    text-decoration: none;
+    color: black;
+}

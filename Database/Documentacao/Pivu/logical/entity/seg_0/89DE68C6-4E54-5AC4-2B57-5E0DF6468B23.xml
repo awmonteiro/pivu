@@ -4,7 +4,7 @@
 <createdTime>2021-02-04 23:57:10 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,37 +15,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_produto" id="26016916-835E-4F3F-D87E-5C10BA8B6C20">
+<Attribute name="id_promocao" id="D0E3CE2B-88BB-778C-0C55-99234770E3CD">
 <createdBy>CFBAWM</createdBy>
-<createdTime>2021-02-04 23:57:31 UTC</createdTime>
+<createdTime>2021-02-06 16:25:29 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="preco" id="A774C7CD-A39D-EB7F-4CA8-6F58E68C77FE">
 <createdBy>CFBAWM</createdBy>
 <createdTime>2021-02-04 23:57:45 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="inicio" id="D3C75BC2-226F-2984-3ECC-34092007FC42">
 <createdBy>CFBAWM</createdBy>
 <createdTime>2021-02-04 23:57:49 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fim" id="D4D39D09-7A68-8FD1-79B3-1B027EC94B18">
@@ -53,11 +59,41 @@
 <createdTime>2021-02-04 23:57:53 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_produto1" id="11ED0A41-9BBA-61B9-7A59-C50F621C6E29">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:43:25 UTC</createdTime>
+<generatorID>56C9433D-EF4C-69B8-C7BE-522A86D782C3</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<referedAttribute>7BEF8ED7-48D3-81D1-61EA-4CF6997A5B55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0DB8F59-7EDF-79F6-4BF2-27CC95A63DC1" name="PROMOCAO PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:40:16 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0E3CE2B-88BB-778C-0C55-99234770E3CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

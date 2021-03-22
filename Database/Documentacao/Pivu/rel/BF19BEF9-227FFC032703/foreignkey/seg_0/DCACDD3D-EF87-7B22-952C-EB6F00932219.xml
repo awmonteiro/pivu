@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCACDD3D-EF87-7B22-952C-EB6F00932219" containerWithKeyObject="806CD7C7-6414-AEB2-C4F9-C73584AF8164" localFKIndex="2BA2F20C-82D3-A69E-B342-98963B74897C" name="PEDIDO_TIPO_PAGAMENTO_PEDIDO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 23:07:44 UTC</createdTime>
+<generatorID>682FE0CF-78FE-C4F8-A64C-A85F45C06184</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<referredTableLongName>TIPO_PAGAMENTO_PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92E6A357-A70E-3785-9613-82A873959308</referredTableID>
+<keyObject>81B485E2-CA21-7F8F-798B-A1461FF2C86E</keyObject>
+<referredKeyID>81B485E2-CA21-7F8F-798B-A1461FF2C86E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

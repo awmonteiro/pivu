@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="806CD7C7-6414-AEB2-C4F9-C73584AF8164" name="PEDIDO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>BB67E613-F907-65BB-576E-E852D5751BD8</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="E3F69820-9984-C848-6ADF-DE334CF2D087">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>1263E3FC-D463-5AE2-A613-F16E2322698F</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="0097885A-370A-752D-B19B-8796143CBD7B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>044D7BC7-09D5-31B3-135A-0A71122C0D87</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_ENDERECO_id_endereco" id="EB1C0E34-4922-5453-E545-E38321600650">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>0E0ADF6B-50B9-B744-A3B6-02B77D7DAF98</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B2C102E-98D8-B46E-B383-F2971A865F68" referredColumn="36F21243-83D5-6CDA-D89B-8DBD8F50FA32"/>
+</associations>
+</Column>
+<Column name="entrega_imediata" id="BE8409B0-0F50-62A0-2E98-BA4E39F860F0">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>2BE3F67D-088D-F83C-745F-60FCB992C62E</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_entrega" id="CDBFF575-5BDC-1AA8-C0D7-59B51DA6170D">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>AE03297A-5771-7705-4A2A-DC173E21D9EE</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pago" id="AA921CD4-0C97-0AF5-D39E-3B7E989C3A6E">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>CB5D52F7-0BAE-8F64-CE72-FA595EB49E88</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_pedido" id="2D0B8555-9925-82C1-C4A6-E358C093894D">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>8D81FFAB-29EB-9DBA-A604-9FFDF3C159BB</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_fechamento" id="F29CA741-0C42-43FB-CA71-EF659F94E997">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>0D6CA243-34F8-CD2D-7F4B-9BEF135F0BED</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="9FA712D5-5713-B67C-4537-574B5F65C620">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>E4573BF2-A991-2B2F-7AC4-C7C6173E9C87</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PAGAMENTO_PEDIDO_id_tipo_pagamento" id="F09CF950-9D3D-A480-57D0-0193012F8476">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 23:07:44 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCACDD3D-EF87-7B22-952C-EB6F00932219" referredColumn="F6CBECF2-5E30-4C9A-5D23-EAE55386B081"/>
+</associations>
+</Column>
+<Column name="USUARIO_id_usuario" id="07C24C52-2268-3AA6-8917-761C1FAEF3DD">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:41:43 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>450</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D9A98CC-D9CA-88FC-F839-E429CAF0427A" referredColumn="5A0B8D1E-9584-A653-4EBF-13D61083C31F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0AE5D7A-A199-360C-3488-EB7D48942853" name="PEDIDO_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>EC00B907-1C56-B90A-1696-D362A0D70970</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3F69820-9984-C848-6ADF-DE334CF2D087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E92C2CA-1277-118F-BA91-314526F1F1C9" name="PEDIDO_USUARIO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>890BF93F-941B-47A7-66D2-0427B9D95266</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C24C52-2268-3AA6-8917-761C1FAEF3DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BA2F20C-82D3-A69E-B342-98963B74897C" name="PEDIDO_TIPO_PAGAMENTO_PEDIDO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 23:07:44 UTC</createdTime>
+<generatorID>682FE0CF-78FE-C4F8-A64C-A85F45C06184</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09CF950-9D3D-A480-57D0-0193012F8476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E12B527B-831E-D49C-FFDC-38B9CFD916BA" name="PEDIDO_USUARIO_ENDERECO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 23:21:03 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB1C0E34-4922-5453-E545-E38321600650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

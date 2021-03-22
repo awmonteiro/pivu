@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Produto>;
+
+<section class="container-fluid">
+    <div class="divBanner">
+        <img src="~/images/banner/cervejaria/b_@(@Model.First().Cervejaria.ID_CERVEJARIA).png" class="imgBanner">
+    </div>
+    <div class="dadosCervejaria">
+        <h5 class="estrela"></h5>
+        <h5 class="nota">4.5</h5>        
+        <p>Cervejaria Artesanal de taubate. qualidade sempre.</p>
+    </div>
+    <h4 class="tituloDeSecao">Cervejas</h4>
+    <div class="row">
+
+        @foreach (var produtos in Model)
+        {
+            <div class="card m-2 cardCervejarias">
+                <div class="row">
+                    <div class="cardDivImgCervejaria">
+                        <img src="~/images/produtos/p_@(produtos.ID_PRODUTO)_p.jpeg" alt="@(produtos.NOME)" class="cardImgCervejaria">
+                    </div>
+                    <div class="card-body">
+                        <h3>@Model.First().Cervejaria.NOME</h3>
+                        <h5 class="card-title">@produtos.NOME</h5>
+                        <p class="card-text manterLinha">@produtos.ESTILO</p>
+                        <p class="text-muted">@produtos.DESCRICAO</p>
+                        <p class="card-text manterLinha">IBU: @produtos.IBU</p>
+                        <p class="card-text manterLinha"> - </p>
+                        <p class="card-text manterLinha">ABV: @(produtos.ABV) %</p>
+                        <button class="invisivel stretched-link" data-toggle="ajax-modal" data-target="#details-modal" data-url="@Url.Action($"Details/{produtos.ID_PRODUTO}")"></button>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</section>
+
+<div id="placeholderhere"></div>
+
+@section scripts{
+<script>
+    $(function () {
+        var placeholderelement = $('#placeholderhere');
+        $('button[data-toggle="ajax-modal"]').click(function (event) {
+            var url = $(this).data('url');
+            var decodeUrl = decodeURIComponent(url);
+            $.get(decodeUrl).done(function (data) {
+                placeholderelement.html(data);
+                placeholderelement.find('.modal').modal('show');
+            })
+        })
+    })
+</script> 
+   
+}
+
+
+
+
+

@@ -4,7 +4,7 @@
 <createdTime>2021-02-04 23:31:10 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,33 +15,42 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto_tamanho" id="9A6E3799-1F44-38C6-70B0-2B157DAAE1C7">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:24:36 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<engineerTo>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="volume" id="85FD4D9F-BBAE-51E1-6ECC-ABC901056259">
 <createdBy>CFBAWM</createdBy>
 <createdTime>2021-02-04 23:31:21 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_produto" id="7BFE9E2C-3BF4-786C-45F2-337F898B786D">
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6999052E-FA93-A104-6AFB-D65DD05A78F4" name="PRODUTO_TAMANHO PK">
 <createdBy>CFBAWM</createdBy>
-<createdTime>2021-02-04 23:50:47 UTC</createdTime>
+<createdTime>2021-02-06 16:24:48 UTC</createdTime>
 <ownerDesignName>Pivu</ownerDesignName>
 <engineerTo>
-<item key="E5D30C6D-EBE1-42F8-6630-E0ACDCA012DF" value="true"/>
+<item key="BF19BEF9-C977-57AB-0414-227FFC032703" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-</attributes>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A6E3799-1F44-38C6-70B0-2B157DAAE1C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

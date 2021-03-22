@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="717A4DC8-DA33-78D5-DB19-C5AB34134982" name="PROMOCAO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>89DE68C6-4E54-5AC4-2B57-5E0DF6468B23</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promocao" id="077BF9AA-9813-DD1F-4C3C-90A974933324">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>D0E3CE2B-88BB-778C-0C55-99234770E3CD</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="91AAF634-AEB1-FD85-4C03-F64BEED1C1AD">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>A774C7CD-A39D-EB7F-4CA8-6F58E68C77FE</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio" id="517BF17D-553C-EF92-231D-663C85C48054">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>D3C75BC2-226F-2984-3ECC-34092007FC42</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim" id="0BEF74D1-0ED1-153C-2A93-D5C40903F586">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>D4D39D09-7A68-8FD1-79B3-1B027EC94B18</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUTO_id_produto" id="F2EC3BC2-9523-55DD-B61B-925F4952395F">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>11ED0A41-9BBA-61B9-7A59-C50F621C6E29</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFA15711-1148-24B0-1C98-0EC0F8E5FCA5" referredColumn="68756B00-8178-5C26-E848-213FEC33BB37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D035B749-8FBC-080B-617B-F6D45EB31AD1" name="PROMOCAO_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>C0DB8F59-7EDF-79F6-4BF2-27CC95A63DC1</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="077BF9AA-9813-DD1F-4C3C-90A974933324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F34BBAA8-A657-8995-38FA-5305055CC738" name="PROMOCAO__UN">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-10 23:41:44 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2EC3BC2-9523-55DD-B61B-925F4952395F"/>
+<colUsage columnID="517BF17D-553C-EF92-231D-663C85C48054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22DB57B5-5742-0035-E0D6-6EEEF0CD8E13" name="PROMOCAO__IDX">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>56C9433D-EF4C-69B8-C7BE-522A86D782C3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F2EC3BC2-9523-55DD-B61B-925F4952395F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EA8A7AE-02CC-CECE-A064-FBE6753F4A1D" name="PROMOCAO_PRODUTO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>56C9433D-EF4C-69B8-C7BE-522A86D782C3</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2EC3BC2-9523-55DD-B61B-925F4952395F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

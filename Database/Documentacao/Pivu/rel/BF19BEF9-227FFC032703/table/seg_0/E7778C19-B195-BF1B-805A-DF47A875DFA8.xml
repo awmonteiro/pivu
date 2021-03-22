@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7778C19-B195-BF1B-805A-DF47A875DFA8" name="PEDIDO_ITENS">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>63DBD7EF-3B19-D24F-B7C9-CCBC872A56BF</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido_item" id="0B2AC90D-7A51-ED97-AB68-BC603A059CA7">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>BFD4F76D-1258-3490-0393-55C4B80F7CFE</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="845C3C6E-F3BC-8B94-2CCA-3AB362E8AACA">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>4A0C04B7-50A5-EBF4-C897-21C354E899AC</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEDIDO_id_pedido" id="0AC6E262-DEF1-B20E-4E8A-EC474107C4EF">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>58BBBBD5-8067-701C-AA48-BDEB5114C2B0</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97B938AA-012E-C6EA-A1CB-B4F9FBA74891" referredColumn="E3F69820-9984-C848-6ADF-DE334CF2D087"/>
+</associations>
+</Column>
+<Column name="PRODUTO_id_produto" id="75383517-B296-CEA3-C784-97BC9808A94E">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>5203D626-3337-356B-0EC6-EB6597898D8D</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E412807A-556D-DC40-409C-2D2750B44C8E" referredColumn="68756B00-8178-5C26-E848-213FEC33BB37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18A87751-54DD-C96B-922B-EC254A84E2DA" name="PEDIDO_ITENS_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>953658BB-87F7-66AA-BCCE-AD4133E23904</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2AC90D-7A51-ED97-AB68-BC603A059CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="067FA7D0-3775-5DED-C87A-C87CAD86F89A" name="PEDIDO_ITENS_PRODUTO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>BC444A00-DE84-1063-29AE-C0C8325516DA</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75383517-B296-CEA3-C784-97BC9808A94E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DFAAFD1-B9C7-F2AC-7B56-649080167804" name="PEDIDO_ITENS_PEDIDO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>72124F22-6B37-E735-0F80-E0263A053798</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC6E262-DEF1-B20E-4E8A-EC474107C4EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

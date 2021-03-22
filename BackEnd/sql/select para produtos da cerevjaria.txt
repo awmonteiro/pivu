@@ -1,0 +1,25 @@
+--cervejas com todos os dados
+select c.nome,p.nome,p.estilo,p.descricao,p.ibu,p.abv,pt.volume,pts.preco
+from cervejaria c
+join produto p on c.id_cervejaria = p.cervejaria_id_cervejaria
+join produto_tamanhos pts on pts.produto_id_produto = p.id_produto
+join produto_tamanho pt on pt.id_produto_tamanho = pts.produto_tamanho_id_produto_tamanho
+where c.id_cervejaria = 1;
+
+--todos os produtos da cervejaria
+select c.nome,p.nome,p.estilo,p.descricao,p.ibu,p.abv
+from cervejaria c
+join produto p on c.id_cervejaria = p.cervejaria_id_cervejaria
+where c.id_cervejaria = 1;
+
+--volumes disponiveis do produto x
+select c.id_cervejaria,c.nome,
+p.id_produto,p.nome,p.cervejaria_id_cervejaria,p.estilo,p.descricao,p.ibu,p.abv,
+t.id_tamanho,t.volume,
+pt.produto_id_produto,pt.tamanho_id_tamanho,pt.preco
+from cervejaria c
+join produto p on c.id_cervejaria = p.cervejaria_id_cervejaria
+join produto_tamanho pt on pt.produto_id_produto = p.id_produto
+join tamanho t on t.id_tamanho = pt.tamanho_id_tamanho
+where 
+p.id_produto = 2;

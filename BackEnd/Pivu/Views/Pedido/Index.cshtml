@@ -1,0 +1,116 @@
+﻿@model List<Cervejaria>;
+
+<h1 class="tituloPrincipal">As melhores cervejas artesanais!!</h1>
+<!-- carrossel -->
+<div class="responsive">
+    <div>
+        <img src="~/images/copos/copo_com_apa.jpg" alt="copo com apa" class="copo" />
+        <div class="estiloCerveja">Apa</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_blond.jpg" alt="copo com blond" class="copo" />
+        <div class="estiloCerveja">Blond</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_brut.jpg" alt="copo com brut" class="copo" />
+        <div class="estiloCerveja">Brut</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_cream_ale.jpg" alt="copo com cream ale" class="copo" />
+        <div class="estiloCerveja">Cream Ale</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_dunkelweizen.jpg" alt="copo com dunkelweizen" class="copo" />
+        <div class="estiloCerveja">Dunkelweizen</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_german_pils.jpg" alt="copo com german pils" class="copo" />
+        <div class="estiloCerveja">German Pils</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_helles.jpg" alt="copo com helles" class="copo" />
+        <div class="estiloCerveja">Helles</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_ipa.jpg" alt="copo com ipa" class="copo" />
+        <div class="estiloCerveja">Ipa</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_k_lsch.jpg" alt="copo com kolsch" class="copo" />
+        <div class="estiloCerveja">Kolsch</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_oktoberfest.jpg" alt="copo com oktoberfest" class="copo" />
+        <div class="estiloCerveja">Oktoberfest</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_pilsen.jpg" alt="copo com pilsen" class="copo" />
+        <div class="estiloCerveja">Pilsen</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_rauchbier.jpg" alt="copo com rauchbier" class="copo" />
+        <div class="estiloCerveja">Rauchbier</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_red.jpg" alt="copo com red" class="copo" />
+        <div class="estiloCerveja">Red Ale</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_ris.jpg" alt="copo com ris" class="copo" />
+        <div class="estiloCerveja">Ris</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_saison.jpg" alt="copo com saison" class="copo" />
+        <div class="estiloCerveja">Saison</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_session_ipa.jpg" alt="copo com session ipa" class="copo" />
+        <div class="estiloCerveja">Session Ipa</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_stout.jpg" alt="copo com stout" class="copo" />
+        <div class="estiloCerveja">Stout</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_vienna_lager.jpg" alt="copo com vienna lager" class="copo" />
+        <div class="estiloCerveja">Lager</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_weiss.jpg" alt="copo com weiss" class="copo" />
+        <div class="estiloCerveja">Weiss</div>
+    </div>
+    <div>
+        <img src="~/images/copos/copo_com_witbier.jpg" alt="copo com witbier" class="copo" />
+        <div class="estiloCerveja">Witbier</div>
+    </div>
+</div>
+
+<!-- cards cervejarias -->
+<section class="container-fluid">
+    <h4 class="tituloDeSecao">Cervejarias</h4>
+    <div class="row">
+
+        @foreach (var cervejaria in Model)
+        {
+            <div class="card m-2 cardCervejarias">
+                <div class="row">
+                    <div class="cardDivImgCervejaria">
+                        <img src="~/images/cervejarias/c_@(cervejaria.ID_CERVEJARIA).png" alt="@(cervejaria.NOME)" class="cardImgCervejaria">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@cervejaria.NOME</h5>
+                        <p class="card-text">4.5</p>
+                        <p class="card-text"><small class="text-muted">Gratis</small></p>
+                        <a asp-controller="Pedido" asp-action="Cervejaria" asp-route-ID="@cervejaria.ID_CERVEJARIA" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    </div>
+</section>
+
+@section scripts{
+    // Add something here
+}

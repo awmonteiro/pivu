@@ -1,0 +1,264 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="504F9BD5-DD14-9A0B-24CB-79D85AB17F6C" name="USUARIO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>537E01A6-54C8-1529-2BB4-ADE35DE03B90</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="5A0B8D1E-9584-A653-4EBF-13D61083C31F">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:40:47 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>450</dataTypeSize>
+<ownDataTypeParameters>450,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="AB09208E-7A9A-8C5B-C235-5C2F80682E5B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>A13D5F3B-86C4-E298-F537-C020E62FCCCE</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="F2D3E723-EB66-9717-CFFB-345A9B9C4DE6">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>68DE2CD4-F232-9BBB-ECBD-9076B6373331</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="0020F217-77CE-0266-F033-97BC42ADAA6F">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>BC4A7EEB-D33D-F0F4-0511-C97B202B44FF</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="EB903813-5DF7-BA95-E952-B97DA16D5783">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>8FA6EEF3-C330-FA74-CA24-31B77B2EFAEC</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneconfirmed" id="A51CCE13-32D9-890E-FAFA-216DA9310914">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:51:05 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nascimento" id="66A098AE-B30D-A033-67A6-A7A3A82086BB">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>9E0C4412-0F39-9033-EBD0-1B0DF8AABD2B</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_endereco_principal" id="46D8E7AE-DC54-AACB-105F-A746FC6A8468">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>CF05B4B6-9D0F-5B3D-BC29-BF353A9D89D2</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="2E0C952D-DC3C-6495-44E7-B73FB00FCB52">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:49:22 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="normalizedusername" id="088A4373-9C2D-F001-A320-1E8D02D6A336">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:49:22 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="normalizedemail" id="27F60276-9F38-4459-4449-EE8706FA0812">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:49:58 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailconfirmed" id="963A11FB-720E-6104-8938-15F99C3505B8">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:49:58 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passwordhash" id="808B506A-328B-C504-A1C3-79E2BD20C8C7">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:50:13 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="securitystamp" id="41C9CDE8-62FF-8B9E-1D7E-EF0FFF662C93">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:51:05 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="concurrencystamp" id="246C8D9E-B70A-E673-F235-8BFD450A1F9C">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:51:05 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="twofactorenabled" id="1D666AB0-DC26-90C5-973C-48ADD83930DB">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:52:02 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lockoutend" id="778E73BD-5219-65E8-A111-5E3689D6E09C">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:52:02 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lockoutenabled" id="F81CFF33-4E27-E5A3-4E93-091CD0351FF6">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:52:02 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accessfailedcount" id="8A6291B6-E1EB-364B-D5C3-73DE24A891B7">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-01 22:52:02 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4A623FC-6BFC-DB02-593B-9A8AE51B27F5" name="USUARIO_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>FEECBFD1-0097-9AF5-E793-CC2035328793</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A0B8D1E-9584-A653-4EBF-13D61083C31F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C86C1A19-9F29-86D1-9767-A6DB8AB326DD" name="USUARIO__UN">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-10 23:11:21 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2D3E723-EB66-9717-CFFB-345A9B9C4DE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

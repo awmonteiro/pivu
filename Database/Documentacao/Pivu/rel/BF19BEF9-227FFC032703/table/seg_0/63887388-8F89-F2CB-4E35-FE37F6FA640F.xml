@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63887388-8F89-F2CB-4E35-FE37F6FA640F" name="PRODUTO">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>85BAAB64-0765-9760-D5C4-0089124C63B4</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="68756B00-8178-5C26-E848-213FEC33BB37">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>7BEF8ED7-48D3-81D1-61EA-4CF6997A5B55</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="298F2B50-4B27-B091-2606-23D4B1D22C27">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>BB8E39AD-B595-799C-93CD-2067A365B06E</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="7213D023-91D6-DDA0-D5B3-E180C808F22B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>6FE42F39-9365-8735-E419-A933F468E20D</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="849C7C09-F525-EE75-7DA3-312732CFCD1A">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>036FA610-C8BB-C669-995B-40A4361693BC</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ibu" id="AAD3D8DA-086A-CF87-4C2A-F7CFBBDB715B">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>06231485-CF16-383A-5DA9-66A8CE236C5B</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abv" id="7BB427B2-2452-3661-1F7D-063C9803827F">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>441E022F-CA16-C3AF-553E-F45A9162CCE9</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dias_preparo" id="920A1D77-DA27-DBB4-1FB2-EEE0B9D38B5E">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>20190C4B-7151-6930-95D5-81D8FB8A3DD5</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMOCAO_id_promocao" id="4ADF7439-AF86-FA2A-BB79-D05FFAD76953">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>939F9A4D-62F3-5CA8-36D3-CD6B38FF34BC</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A42CE021-BBEF-9ED3-C65A-0BBF106EC5DC" referredColumn="077BF9AA-9813-DD1F-4C3C-90A974933324"/>
+</associations>
+</Column>
+<Column name="CERVEJARIA_id_cervejaria" id="C856356C-C448-03D9-8649-79E4C409CBA2">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 22:48:48 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="168676F4-08D3-7B85-E3FE-4E702375539B" referredColumn="EBDF923E-9145-30F4-DCFA-C8F9FADD63FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAF13EE8-C754-FCE4-BDE9-ECB90A5D01DB" name="PRODUTO_PK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>9B713095-A84A-7682-EA49-8F4CB184E7A1</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68756B00-8178-5C26-E848-213FEC33BB37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5781F50-942E-4210-7BF7-E17845254AFC" name="PRODUTO__UN">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-03-10 23:05:12 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="298F2B50-4B27-B091-2606-23D4B1D22C27"/>
+<colUsage columnID="7213D023-91D6-DDA0-D5B3-E180C808F22B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E06C1FAB-72A7-8382-EA3A-7CF26B9DC5C2" name="PRODUTO__IDX">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>56C9433D-EF4C-69B8-C7BE-522A86D782C3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4ADF7439-AF86-FA2A-BB79-D05FFAD76953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B67364D1-53F1-04E5-C858-8C89D4E937D5" name="PRODUTO_PROMOCAO_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-06 16:56:40 UTC</createdTime>
+<generatorID>56C9433D-EF4C-69B8-C7BE-522A86D782C3</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADF7439-AF86-FA2A-BB79-D05FFAD76953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D5737A2-55F8-B4DB-FD5C-74ABD4654761" name="PRODUTO_CERVEJARIA_FK">
+<createdBy>CFBAWM</createdBy>
+<createdTime>2021-02-08 22:48:48 UTC</createdTime>
+<generatorID>AAA41BFC-85B5-D61A-494D-C8972875075C</generatorID>
+<ownerDesignName>Pivu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C856356C-C448-03D9-8649-79E4C409CBA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
