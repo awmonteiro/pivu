@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Compartilhado\\projetos\\pivu\\BackEnd\\Pivu\\Pivu.csproj": {}
+    "C:\\Compartilhado\\projetos\\pivu\\Backend\\Pivu\\Pivu.csproj": {}
   },
   "projects": {
-    "C:\\Compartilhado\\projetos\\pivu\\BackEnd\\Pivu\\Pivu.csproj": {
+    "C:\\Compartilhado\\projetos\\pivu\\Backend\\Pivu\\Pivu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Compartilhado\\projetos\\pivu\\BackEnd\\Pivu\\Pivu.csproj",
+        "projectUniqueName": "C:\\Compartilhado\\projetos\\pivu\\Backend\\Pivu\\Pivu.csproj",
         "projectName": "Pivu",
-        "projectPath": "C:\\Compartilhado\\projetos\\pivu\\BackEnd\\Pivu\\Pivu.csproj",
+        "projectPath": "C:\\Compartilhado\\projetos\\pivu\\Backend\\Pivu\\Pivu.csproj",
         "packagesPath": "C:\\Users\\cfbawm\\.nuget\\packages\\",
-        "outputPath": "C:\\Compartilhado\\projetos\\pivu\\BackEnd\\Pivu\\obj\\",
+        "outputPath": "C:\\Compartilhado\\projetos\\pivu\\Backend\\Pivu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

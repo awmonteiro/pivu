@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXhX6AzZm7rjLWq2a6laToS4BKXR3CwUmaB4ovjC1NXHZM/2m9UP3PRJqGP7e4ISnFfQunllmj4HjB+g/mIjaw==",
+  "dgSpecHash": "uCbqBpgZnkzi1YEABQsW9spYrShUpIFX9bGr7isLEWU4M64o/18jyxjYcZCCqdV2DoVLnnYVmaRyW5ETrsI6Hw==",
   "success": true,
-  "projectFilePath": "C:\\Compartilhado\\projetos\\pivu\\BackEnd\\Pivu\\Pivu.csproj",
+  "projectFilePath": "C:\\Compartilhado\\projetos\\pivu\\Backend\\Pivu\\Pivu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cfbawm\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\cfbawm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
